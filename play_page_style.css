@@ -1,0 +1,55 @@
+.container-top {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #EEF0F7;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.roll-the-dice{
+    background-image: linear-gradient(to right, #89CAFF, #6589FF);
+    display: block;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 5px 20px #89caff94;
+    transition: box-shadow .3s ease-in-out;
+    text-align: center;
+    width: 100%;
+    border: none;
+    padding: 14px;
+    margin-top:50px;
+    border-radius: 3px;
+}
+
+.roll-the-dice2{
+    background-image: linear-gradient(to right, #89CAFF, #6589FF);
+    display: block;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 5px 20px #89caff94;
+    transition: box-shadow .3s ease-in-out;
+    text-align: center;
+    width: 10%;
+    border: none;
+    padding: 14px;
+    margin-top:50px;
+    border-radius: 3px;
+}
+
+.dice-img{
+    margin-top: 50px;
+    width: 300px;
+}
+
+.player-name{
+    color: red;
+}
+.rolls-count-text{
+    font-size: 2.3rem;
+    color: #1A2250;
+    font-weight: bold;
+}
